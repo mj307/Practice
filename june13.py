@@ -15,7 +15,7 @@ from langchain import HuggingFaceHub
 prompt = "Alice has a parrot. What animal is Alice's pet?"
 from langchain_community.llms import HuggingFaceHub
 from langchain_huggingface import HuggingFaceEndpoint
-huggingfacehub_api_token = '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'
+huggingfacehub_api_token = 'api key'
 llm = HuggingFaceHub(repo_id="tiiuae/falcon-7b-instruct", huggingfacehub_api_token=huggingfacehub_api_token)
 # repo_id is the model type
 #google/flan-t5-xxl
